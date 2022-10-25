@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  lang=""
+  xml:lang=""
+  >
+  <head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=yes"
+    />
+           <title>syllabus</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    </style>
+        <link rel="stylesheet" href="style/bulma.css" />
+        <link rel="stylesheet" href="style/custom.css" />
+     
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+    
+  </head>
+  <body>
+          <section class="section">
+      <div class="container">
+        <div class="content">
+          <figure>
+          <img src="images/logo.jpg" alt="A modern logo for a modern class" /><figcaption aria-hidden="true">A modern logo for a modern class</figcaption>
+          </figure>
+          <h2 id="what-we-doing-here">What we doing here?</h2>
+          <p>This is a course about making data-y, graphics-y things for the internet. We are going hard on the <strong>future</strong>, here.</p>
+          <h2 id="where-is-here">Where is “here?”</h2>
+          <p>Jonathan Soma: <a href="mailto:js4571@columbia.edu">js4571@columbia.edu</a>, <a href="https://twitter.com/dangerscarf">@dangerscarf</a></p>
+          <p>Spring 2012, Columbia Graduate School of Journalism</p>
+          <p>Tuesdays, 2:30-5PM</p>
+          <p>Zoom office hours available via <a href="https://calendly.com/jsoma/30min">calendly</a></p>
+          <h1 id="syllabus">Syllabus</h1>
+          <h2 id="week-1-htmlcss-build-systems">Week 1: HTML/CSS build systems</h2>
+          <p>An introduction to <strong>build systems</strong>, automated pipelines for getting your content on the web. We’ll use <a href="https://pandoc.org/">pandoc</a> to produce web pages from Jupyter Notebooks. Customization comes from HTML templates and a CSS framework or two. We’ll also leave the warm embrace of <code>pip</code> for the Wild West of <code>npm</code>.</p>
+          <p><a href="https://github.com/jsoma/portfolio-autopublish">portfolio-autopublish</a> will give us a hand to update our website whenever we push a change to the repo (courtesy <a href="https://docs.github.com/en/actions">GitHub Actions</a>). To make autopublish do what we want, we’ll create a few issues and make unreasonable demands of the repo owner.</p>
+          <h3 id="output">Output</h3>
+          <ul>
+          <li>Customized portfolio website via autopublish build system</li>
+          <li>Project walkthrough/tutorial page sourced from a Jupyter Notebook</li>
+          </ul>
+          <h3 id="links">Links</h3>
+          <ul>
+          <li><a href="https://pandoc.org/">pandoc</a>, a CLI tool to convert between different document formats.</li>
+          <li><a href="https://twitter.com/zittrain/status/1395750908349325315">A Twitter thread on link rot</a></li>
+          <li>CSS Frameworks/etc:
+          <ul>
+          <li><a href="https://getbootstrap.com/">Bootstrap</a>, a common CSS framework</li>
+          <li><a href="https://bulma.io/">Bulma</a>, a simpler and less popular CSS framework that I love</li>
+          <li><a href="https://html5up.net/">HTML5 UP!</a>, one of ten million sources for webpage templates</li>
+          </ul></li>
+          <li><a href="https://jamstack.org/generators/">A big list of static site generators</a>, including:
+          <ul>
+          <li><a href="https://jekyllrb.com/">Jekyll</a>, a Ruby-based static site generator</li>
+          <li><a href="https://gohugo.io/">Hugo</a>, a Go-based static site generator</li>
+          <li><a href="https://docs.getpelican.com/en/latest/">Pelican</a>, a Python-based static site generator</li>
+          <li><a href="https://www.gatsbyjs.com/">Gatsby</a>, a node-based static site generator</li>
+          <li><a href="https://pages.github.com/">GitHub Pages</a>, a Jekyll-based static site generator</li>
+          </ul></li>
+          <li>Our personal static site generators:
+          <ul>
+          <li><a href="https://github.com/jsoma/portfolio-autopublish">portfolio-autopublish</a>, a Python Google-Docs-based publishing system</li>
+          <li><a href="https://github.com/jsoma/bottlejack">bottlejack</a>, a node.js-based publishing system</li>
+          </ul></li>
+          <li>Web bundlers (probably won’t talk about these today)
+          <ul>
+          <li><a href="https://parceljs.org/">Parcel</a></li>
+          <li><a href="https://webpack.js.org/">Webpack</a></li>
+          <li><a href="https://rollupjs.org/">Rollup</a></li>
+          </ul></li>
+          </ul>
+          <h2 id="week-2-intro-to-scrollytelling">Week 2: Intro to scrollytelling</h2>
+          <p>Wait, is it <a href="https://en.wikipedia.org/wiki/Snow_Fall">2012 all over again</a>? We’ll tackle <strong>scrollytelling</strong>, the scourage of usability and darling of designers. This session will focus on image-based transitions and stacks, not the D3-whiz-bang version.</p>
+          <p>We’ll also review our bottlejack websites and see what needs improving, along with doing a little maintenance on our terminals.</p>
+          <h3 id="output-1">Output</h3>
+          <ul>
+          <li>A fancy-looking scrollytelling page to add to your portfolio</li>
+          </ul>
+          <h3 id="tutorial">Tutorial</h3>
+          <ul>
+          <li><a href="https://www.youtube.com/watch?v=d7wTA9F-l8c">Building a scrollytelling site with scrollama.js (no d3, no magic)</a> (YouTube)</li>
+          </ul>
+          <h3 id="links-1">Links</h3>
+          <ul>
+          <li><a href="https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line">Open VSCode from OS X Terminal</a></li>
+          <li><a href="https://twitter.com/molly_struve/status/1396947084121710598">JavaScript</a>, a language that isn’t Python</li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-size">background-size: cover</a>, a CSS technique to make “full-bleed” images</li>
+          <li><a href="https://www.digitalocean.com/community/tutorials/css-position-sticky">position:sticky</a>, the CSS way to make things stick around on-screen while you scroll</li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API">Intersection Observer</a>, a JavaScript ability to detect when you hit certain parts of a scrolly-told piece</li>
+          <li><a href="https://pudding.cool/process/responsive-scrollytelling/">Scrollytelling best practices</a> by Russell Goldenberg of The Pudding</li>
+          <li><a href="https://github.com/jsoma/simplified-scrollama-scrollytelling">Simplified scrollama examples</a></li>
+          <li>No, just kidding, <a href="https://multimedia.scmp.com/infographics/news/china/article/3133725/tianwen1-mars-mission/index.html">scrollytelling has been done well once or twice</a></li>
+          </ul>
+          <h2 id="week-3-svelte-web-apps">Week 3: Svelte web apps</h2>
+          <p>I typically teach <a href="http://jonathansoma.com/tutorials/flask-sqlalchemy-mapbox/">webapps using Flask (Python) with a SQL backend</a>, but we might as well go all-in on JavaScript. This week we’ll learn to create <strong>web apps</strong>, which encompasses everything from browsable databases to interactive calculators.</p>
+          <h3 id="output-2">Output</h3>
+          <ul>
+          <li>A custom web app using the dataset of your choice</li>
+          </ul>
+          <h3 id="tutorial-1">Tutorial</h3>
+          <ul>
+          <li><a href="https://svelte.dev/tutorial/basics">The official Svelte tutorial</a></li>
+          <li><a href="">A bare-bones news app with Svelte</a> (YouTube)</li>
+          </ul>
+          <h3 id="links-2">Links</h3>
+          <ul>
+          <li><a href="https://svelte.dev/">Svelte</a>, a web application framework for JavaScript, which is like a nicer <a href="https://vuejs.org/">Vue</a> which is like a nicer <a href="https://reactjs.org/">React</a></li>
+          <li><a href="https://flask.palletsprojects.com/">Flask</a>, a web application framework for Python</li>
+          <li><a href="https://projects.propublica.org/docdollars/">Dollars for docs</a>, an age-old example of a webapp for news (but not Svelte!)</li>
+          </ul>
+          <h2 id="week-4-intro-to-d3">Week 4: Intro to D3</h2>
+          <p>Imagine if the most beautiful idea in data visualization was married wit the least useable interface. Or don’t imagine, and just go use D3! <strong>It’s a wreck</strong>, but a loveable, constantly-requested one.</p>
+          <ul>
+          <li><a href="https://github.com/d3/d3">D3 on GitHub</a></li>
+          <li><a href="https://github.com/d3/d3/wiki">Official D3 documentation</a>, lol good luck</li>
+          <li><a href="https://observablehq.com/">Observable</a>, where D3 stuff lives because oh hey turns out you don’t make money for making a software library, you gotta do some sort of value-add</li>
+          </ul>
+          <h2 id="week-5-ai2html">Week 5: ai2html</h2>
+          <p>ai2html is a <strong>magic tool</strong> that exports responsive visuals from Illustrator to HTML. More or less every newsroom with a graphics desk uses ai2html.</p>
+          <ul>
+          <li><a href="http://ai2html.org/">ai2html homepage</a></li>
+          <li><a href="https://www.youtube.com/watch?v=6YkL6TCyxws">A Baby Steps Introduction to Converting Illustrator to HTML</a> (video)</li>
+          <li><a href="https://www.youtube.com/watch?v=b4ECrAVly2g">Responsive Data Visualizations in Illustrator with ai2html</a> (video)</li>
+          <li><a href="https://www.youtube.com/watch?v=HNhIeb_jEYM">Exporting, custom fonts and using CSS-only templates for responsive data viz</a> (video)</li>
+          </ul>
+          <h2 id="week-6-blender-3d-scrollytelling">Week 6: Blender (+ 3D scrollytelling!)</h2>
+          <ul>
+          <li><a href="https://www.nytimes.com/interactive/2019/04/17/world/europe/notre-dame-cathedral-fire-spread.html">Why Notre-Dame was a Tinderbox</a> (NYT)</li>
+          <li><a href="https://www.blender.org/">Blender</a>, the best free 3D modeling software in all of history</li>
+          <li><a href="https://modelviewer.dev/">model-viewer</a>, a very easy to use but somewhat limited library for displaying 3D models in the browser</li>
+          <li><a href="https://github.com/russellgoldenberg/scrollama">scrollama.js</a>, my favorite scrollytelling library</li>
+          </ul>
+          <h2 id="week-7-more-d3">Week 7: More D3</h2>
+          <ul>
+          <li><a href="https://www.youtube.com/watch?v=pIKfzYi49QE&amp;list=PLewNEVDy7gq2b3iGlnICkb65hRdqPp_ev">Intro to D3</a> (YouTube playlist)</li>
+          <li><a href="https://www.youtube.com/watch?v=FTJ7do9FXY8&amp;list=PLewNEVDy7gq3y0oOL_aJftiaxWiGXcf2C">Intermediate D3</a> (YouTube playlist)</li>
+          </ul>
+          <h2 id="week-8-force-diagrams-d3">Week 8: Force Diagrams (D3)</h2>
+          <ul>
+          <li><a href="https://archive.nytimes.com/www.nytimes.com/interactive/2013/05/25/sunday-review/corporate-taxes.html">Potentially, the only force diagram that has ever been made</a></li>
+          <li><a href="https://www.youtube.com/playlist?list=PLewNEVDy7gq1qWBGS2BSOqND6c3DLt2CV">YouTube playlist of some videos I put together at the dawn of time</a></li>
+          </ul>
+          <h2 id="week-9-scrollytelling-with-d3">Week 9: Scrollytelling with D3</h2>
+          <ul>
+          <li><a href="https://github.com/russellgoldenberg/scrollama">scrollama.js</a></li>
+          </ul>
+          <h2 id="week-10-radial-diagrams-with-d3">Week 10: Radial diagrams with D3</h2>
+          <h2 id="other-topics">Other topics</h2>
+          <ul>
+          <li>Observable.js (sigh)</li>
+          <li>Photogrammetry</li>
+          <li>Text-based games with Twine</li>
+          <li>Canvas</li>
+          <li>WebGL</li>
+          <li>GreenSock</li>
+          <li>Netlify</li>
+          <li>Linting</li>
+          <li>Three.js</li>
+          <li>Figma</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+  </body>
+</html>
